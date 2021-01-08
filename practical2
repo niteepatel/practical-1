@@ -1,0 +1,17 @@
+// write a c program to interchange two number.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,temp;
+    clrscr();
+    printf("enter two numbers:");
+    scanf("%d%d",&a,&b);
+    printf("\n before interchange of number...\n a=%d,b=%d",a,b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("\n after interchange of number...\n a=%d,b=%d",a,b);
+    getch();
+}
