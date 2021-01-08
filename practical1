@@ -1,0 +1,13 @@
+//write a program to compute fahrenheit from centigrade (f=1.8*c+32)
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float c,f;
+    printf("Enter the temperature in centigrade:");
+    scanf("%f",&c);
+    f=(1.8*c+32);
+    printf("temperature in fahrenheit is : %f",f);
+    getch();
+}
